@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 
 class NewsDetailScrn extends StatelessWidget {
   var trm = Get.arguments;
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,7 +47,7 @@ class NewsDetailScrn extends StatelessWidget {
                 SizedBox(
                   height: 5,
                 ),
-                Text('${trm[2]}'),
+                Text('${trm[2].toString()}'),
                 Divider(),
                 Text('${trm[4]}'),
                 Text('${trm[0]}'),

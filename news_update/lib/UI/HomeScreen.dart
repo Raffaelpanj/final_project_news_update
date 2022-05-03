@@ -13,6 +13,9 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     var name = Get.arguments;
+    String convName = name;
+    var end = convName.indexOf("@");
+    String fixName = convName.substring(0, end);
     return Scaffold(
         body: SingleChildScrollView(
             child: Padding(
@@ -36,7 +39,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 width: 1.0,
               ),
               Text(
-                "Welcome, $name",
+                "Welcome, $fixName",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.w500),
               )
             ],
