@@ -1,3 +1,4 @@
+![News_Update](https://user-images.githubusercontent.com/82804034/166415285-682c464d-141d-4ea2-a9f5-179939a73c3e.png)
 # news_update
 
 A new Flutter project.
